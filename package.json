@@ -1,0 +1,28 @@
+{
+  "name": "messenger",
+  "version": "0.1.0",
+  "description": "Markdown blog project for myself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamWang/Messenger.git"
+  },
+  "keywords": [
+    "blog",
+    "markdown",
+    "html"
+  ],
+  "author": "Cam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamWang/Messenger/issues"
+  },
+  "homepage": "https://github.com/CamWang/Messenger#readme",
+  "dependencies": {
+    "marked": "^3.0.7",
+    "typescript": "^4.4.4"
+  }
+}
