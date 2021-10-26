@@ -1,0 +1,88 @@
+body {
+  font-family: Georgia, system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Microsoft YaHei",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color: #121212;
+  font-size: 16px;
+}
+
+code {
+  font-family: "DejaVu Sans Mono", consolas, monospace;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+.mark, mark {
+  padding: 0.2em;
+  background-color: #fff7d0;
+}
+
+em {
+  font-style: italic;
+}
+
+ins {
+  text-decoration: underline;
+}
+
+del, s {
+  text-decoration: line-through;
+}
+
+code {
+  font-size: 0.875rem;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+a {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Microsoft YaHei",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.h1, h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.h2, h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+.h3, h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+.h4, h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+.h5, h5 {
+  font-size: 1.25rem;
+}
+
+.h6, h6 {
+  font-size: 1rem;
+}
+
+.blog {
+  word-break: break-word;
+  line-height: 1.6;
+}

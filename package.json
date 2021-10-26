@@ -22,12 +22,9 @@
   },
   "homepage": "https://github.com/CamWang/Messenger#readme",
   "dependencies": {
-    "marked": "^3.0.7",
-    "typescript": "^4.4.4"
+    "marked": "^3.0.7"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
     "eslint": "^8.0.1"
   }
 }
