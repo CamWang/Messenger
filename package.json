@@ -5,7 +5,8 @@
   "description": "Markdown blog project for myself.",
   "main": "index.js",
   "scripts": {
-    "build": "node bin/convert.js && cp source/app.js source/reset.css source/style.css public",
+    "build": "node bin/convert.js && cp source/app.js source/reset.css source/style.css docs",
+    "publish": "npm run build && cp -r docs ~/darkhold && cd ~/darkhold && git add . && git commit -m 'new blog' && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

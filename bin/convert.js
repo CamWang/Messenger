@@ -51,7 +51,7 @@ try {
   }
   blogTags.innerHTML = `<h3>Tags</h3><ul><li>${Array.from(tags).join("</li><br /><li>")}</li></ul>`
   blogList.innerHTML = blogs.join();
-  await writeFile(resolve("public/index.html"), root.toString());
+  await writeFile(resolve("docs/index.html"), root.toString());
 } catch (err) {
   console.error(err);
 }
