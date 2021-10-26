@@ -59,6 +59,16 @@ li {
 
 }
 
+hr {
+  height: 1px;
+  margin: 1rem 0;
+  color: inherit;
+  background-color: #121212;
+  border: 0;
+  opacity: 0.25;
+  clear: both;
+}
+
 .h1, h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
