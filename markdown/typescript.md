@@ -1,6 +1,9 @@
 ---
 layout: post
 title: TypeScript Notes
+date: October 26, 2021
+author: Cam
+tags: typescript javascript language
 ---
 
 # Fundamentals
