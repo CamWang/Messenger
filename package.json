@@ -1,9 +1,11 @@
 {
   "name": "messenger",
   "version": "0.1.0",
+  "type": "module",
   "description": "Markdown blog project for myself.",
   "main": "index.js",
   "scripts": {
+    "build": "node bin/convert.js && cp source/app.js source/reset.css source/style.css public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +27,7 @@
     "marked": "^3.0.7"
   },
   "devDependencies": {
-    "eslint": "^8.0.1"
+    "eslint": "^8.0.1",
+    "node-html-parser": "^5.0.0"
   }
 }
