@@ -50,7 +50,7 @@ try {
     blogs.push(`<div class="blog"><h1 class="blog-title">${meta.title}</h1>${marked(meta.content)}<p class="blog-meta">${meta.date} by ${meta.author==="Cam"?cam:meta.author}</p></div>`);
   }
   blogTags.innerHTML = `<h3>Tags</h3><ul><li>${Array.from(tags).join("</li><br /><li>")}</li></ul>`
-  blogList.innerHTML = blogs.join();
+  blogList.innerHTML = blogs.join('');
   await writeFile(resolve("docs/index.html"), root.toString());
 } catch (err) {
   console.error(err);
