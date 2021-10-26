@@ -64,3 +64,15 @@ Actuators
 * Cause events to occur in the environment
 * LED Light-Emitting Diodes, LCD display
 * Complex actuators, servo motor, ethernet controller
+
+### Analog/Digital Conversion
+Input end:
+* Converts analog data to digtal data
+* Used to interface with analog sensors
+
+Output end:
+* Converts digital signals to analog signals
+* Used to interface with analog actuators
+
+Analog to Digital Cnvertion, ADC, is used to convert analog continueous data into discreate digital numbers.
+* Sound is a pressure wave over time. Microphone converts sound pressure to voltage. voltage is sampled over time. So you can create a discreate map from analog to digital.

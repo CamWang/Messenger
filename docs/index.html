@@ -12,11 +12,75 @@
 
 <body>
   <div id="root" class="container">
-    <div class="blog-list"><div class="blog"><h1 class="blog-title">TypeScript Notes</h1><h1 id="fundamentals">Fundamentals</h1>
+    <div class="blog-list"><div class="blog"><h1 class="blog-title">IoT and Embeded System</h1><h2 id="introduction">Introduction</h2>
+<h3 id="trends-of-iot">Trends of IoT</h3>
+<ul>
+<li>Cost of hardware is cheaper over the years - low cost. </li>
+<li>Computation and network speed is greatly improved - low power, low cost.</li>
+<li>Internet access is available almost everywhere, and Internet can be accessed wirelessly - made IoT devices possible.</li>
+<li>Data cost is fairly low and the bandwidth is high - low cost.</li>
+</ul>
+<h3 id="embedded-systems">Embedded Systems</h3>
+<p>IoT devices usually is just a embedded system with Internet connection.  </p>
+<p>Embedded systems are computer-based systems that do not appear to be computers - complexity is hidden from the user. Embedded system is relatively simple to use than computers. Features of embedded systems are:  </p>
+<ul>
+<li>Application specificity - more efficient, focus on one thing and not overly powered instead of doing general computing like computers and smart phones</li>
+<li>Hardware/Software - the hardware and the software of an embedded system usually designed by the same company</li>
+</ul>
+<p>Examples of embeded system: </p>
+<ul>
+<li>Camera - direct interact with human</li>
+<li>Thumb drive - indirect interact with human</li>
+<li>ABS - direct interact with human</li>
+</ul>
+<p>Constraints lead to use embedded system:</p>
+<ul>
+<li>Manufacturing cost - embedded systems are cost effective</li>
+<li>Design cost - relatively simple</li>
+<li>Performance - focus on doing on thing right</li>
+<li>Power - more focus less power consumption</li>
+<li>Time-to-market - can be mass produced quickly</li>
+<li>Realiability - can do critical things and very reliable</li>
+</ul>
+<h3 id="generic-embedded-systems-structure">Generic Embedded Systems Structure</h3>
+<ul>
+<li>Sensors - Receive data from the physical world, Input, Analog Signal</li>
+<li>Analog to Digital Conversion</li>
+<li>Microcontroller</li>
+<li>IP - Intellectual Property, a chip perform a set of functions, cheap in high volumn, deal with common task like network controller, audo/video controller, interact with microcontroller</li>
+<li>FPGA - Field Programmable Gate Array, can be wired to do certain tasks, can be reconfigured</li>
+<li>Digital to Analog Conversion</li>
+<li>Actuators - Cause events in the world, Output, Analog Signal</li>
+</ul>
+<h3 id="microcontroller">Microcontroller</h3>
+<ul>
+<li>Slower than a microprocessor</li>
+<li>Transmitted code into a microcontroller memory to run them</li>
+<li>Develop the code on a host and transmitted the compiled version to the memory</li>
+</ul>
+<p>Digital Signal Processors</p>
+<ul>
+<li>Made to support DSP functions, process audio </li>
+<li>Vector instructions</li>
+<li>Cheaper but more limited than general purposed processors like CPU</li>
+</ul>
+<p>Sensors</p>
+<ul>
+<li>Receive information from the environment</li>
+<li>Provide simple information, thermister, photoresistor</li>
+<li>Complex sensors like CMOS, ethernet controller</li>
+</ul>
+<p>Actuators</p>
+<ul>
+<li>Cause events to occur in the environment</li>
+<li>LED Light-Emitting Diodes, LCD display</li>
+<li>Complex actuators, servo motor, ethernet controller</li>
+</ul>
+<p class="blog-meta">October 26, 2021 by <a href="https://github.com/camwang">Cam</a></p></div>,<div class="blog"><h1 class="blog-title">TypeScript Notes</h1><h1 id="fundamentals">Fundamentals</h1>
 <h2 id="introduction">Introduction</h2>
 <p>JavaScript is a language that has a dynamic type system, which means it won&#39;t determine what type of value a variable or parameter should hold until it runs to that certain point. As a result, you won&#39;t get any sign of many error until you actually meet them during running and that error might be extremely difficult to come across which is absolutely a pain in the ass. Besides, there is a situation when ECMAScript specifies certain buggy behaviors to not throw any error. For example, if you access a none existing property of an object, you will get an <code>undefined</code> instead of an error.<br>TypeScript introduce static type-checking into the world of JavaScript.</p>
 <p class="blog-meta">October 26, 2021 by <a href="https://github.com/camwang">Cam</a></p></div></div>
-    <div class="sidebar"><h3>Tags</h3><ul><li>typescript</li><br><li>javascript</li><br><li>language</li></ul></div>
+    <div class="sidebar"><h3>Tags</h3><ul><li>iot</li><br><li>uc</li><br><li>typescript</li><br><li>javascript</li><br><li>language</li></ul></div>
   </div>
 
   <script src="app.js"></script>
